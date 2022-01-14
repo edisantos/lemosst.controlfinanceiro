@@ -3,9 +3,42 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Api", "1.Api", "{065E4C87-1D81-40E0-8DB3-363D2863E9D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{4C55A19A-8F95-409A-983A-8FEA6DA7CF39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Repository", "3.Repository", "{B0BE98A7-87B9-4A61-87F5-5B45EFE6225F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infra", "4.Infra", "{8DB78605-254B-46CF-9BCD-149624CD0A8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{92156AE8-3512-4444-BF09-4E8CFE5E4F76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lemosst.controlefinanceiro.Data", "lemosst.controlefinanceiro.Data\lemosst.controlefinanceiro.Data.csproj", "{FEE1CE91-A58E-4BF2-BF6C-670477246BBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lemosst.controlefinanceiro.Domain", "lemosst.controlefinanceiro.Domain\lemosst.controlefinanceiro.Domain.csproj", "{950034D9-2178-4802-8550-B571264EFEF6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEE1CE91-A58E-4BF2-BF6C-670477246BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE1CE91-A58E-4BF2-BF6C-670477246BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE1CE91-A58E-4BF2-BF6C-670477246BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE1CE91-A58E-4BF2-BF6C-670477246BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{950034D9-2178-4802-8550-B571264EFEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950034D9-2178-4802-8550-B571264EFEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950034D9-2178-4802-8550-B571264EFEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950034D9-2178-4802-8550-B571264EFEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92156AE8-3512-4444-BF09-4E8CFE5E4F76} = {8DB78605-254B-46CF-9BCD-149624CD0A8C}
+		{FEE1CE91-A58E-4BF2-BF6C-670477246BBB} = {92156AE8-3512-4444-BF09-4E8CFE5E4F76}
+		{950034D9-2178-4802-8550-B571264EFEF6} = {4C55A19A-8F95-409A-983A-8FEA6DA7CF39}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E22BE33C-9A50-42EC-8682-DA6274F313BA}
