@@ -4,6 +4,6 @@ namespace lemosst.controlefinanceiro.Domain.Entidades.Contas
 {
     public class Roles:IdentityRole<int>
     {
-        public ICollection<UserRoles>? UserRols { get; set; }
+        public ICollection<UserRoles>? UserRoles { get; set; }
     }
 }

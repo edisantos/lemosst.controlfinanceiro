@@ -1,9 +1,4 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace lemosst.controlefinanceiro.Domain.Entidades.Contas
 {
@@ -14,5 +9,10 @@ namespace lemosst.controlefinanceiro.Domain.Entidades.Contas
         public int BairroId { get; set; }
         public int CidadeId { get; set; }
         public int EstadoId { get; set; }
+        public Bairros? Bairros { get; set; }
+        public Cidades? Cidades { get; set; }
+        public Estados? Estados { get; set; }
+
+        public ICollection<UserRoles>? UserRoles { get; set; }
     }
 }
